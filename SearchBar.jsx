@@ -28,7 +28,7 @@ export default function SearchBar() {
                 value={input}
                 onChange={(e) => handleChange(e.target.value)}
             />
-            onClick={handleClick(input)}
+            onChange={handleClick(input)}
         </div>
     );
 }
